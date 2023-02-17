@@ -30,7 +30,9 @@ h1 {
 }
 
 table {
-    margin-top: 90px;
+    position: fixed;
+    margin-top: 150px;
+    
 }
 
 .botao {
