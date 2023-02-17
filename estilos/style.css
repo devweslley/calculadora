@@ -24,7 +24,7 @@ h1 {
 .calculadora {
     display: flex;
     background-color: #050c10;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 20px;
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.446);
     
