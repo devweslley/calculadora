@@ -23,9 +23,12 @@
     }
 
     .calculadora {
+        display: flex;
         background-color: #091921;
         border-radius: 5px;
         padding: 15px;
+        width: 320px;
+        height: 600px;
     }
 
     .botao {
