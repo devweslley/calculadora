@@ -13,8 +13,8 @@ h1 {
 }
 
 .fundo{
-    background-color: #7476ff;
     display: flex;
+    background-color: #7476ff;
     justify-content: center;
     align-items: center;
     height: 100vh;
