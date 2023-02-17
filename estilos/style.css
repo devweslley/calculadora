@@ -18,16 +18,24 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
 }
 
 .calculadora {
     display: flex;
     background-color: #091921;
     border-radius: 5px;
-    padding: 15px;
-    width: 320px;
-    height: 520px;
+    padding: 10px;
+    
 }
+
+.calculadora > table {
+    display: flex;
+    border-radius: 5px;
+    height: 410px;
+    margin-top: 110px;
+    margin-left: -300px;
+} 
 
 .botao {
     width: 70px;
@@ -69,22 +77,13 @@ h1 {
 }
 
 #resultado {
-    display: block;
-    background-color: #091921;
+    
     color: white;
-    height: 40px;
-    width: 240px;
-    margin: 5px;
-    padding: 30px;
-    border-radius: 4px;
+    height: 100px;
+    width: 300px;
     font-size: 3em;
-    text-align: left;
-}
-
-table {
-    display: block;
-    position: fixed;
-    margin-top: 100px;
+    padding-top: 10px;
+    text-align: right;
     
 }
 
